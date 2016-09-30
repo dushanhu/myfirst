@@ -1,0 +1,24 @@
+@basefontsize :20px;
+
+/*rem相对于根元素的字体单位，
+ 
+ * html 元素的font-size 设置20px;整个页面中 1rem 就是20px。
+ * */
+ html{
+       font-size: 100%; // 100% === 16px
+    }
+    
+div{
+    width: 20rem;
+    height: 7.5rem;
+    background:red;
+    :nth-child(1){
+        width: 5rem;
+        height: 1rem;
+        background: yellow;
+    }
+    
+    :hover{
+        background: blue;
+    }   
+}
